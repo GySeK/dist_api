@@ -1,0 +1,8 @@
+{
+  "PGUSER":"postgres",
+  "PGHOST":"localhost",
+  "PGPASSWORD":"Gys35168",
+  "PGDATABASE":"z",
+  "PGPORT":"5432",
+  "JWT_SECRET":"zalupa"
+}

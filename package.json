@@ -1,0 +1,32 @@
+{
+  "name": "dist_api",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js",
+    "init": "node ./initz/generate_db.js && node ./initz/generate_env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.0.0",
+    "@fastify/sensible": "^5.0.0",
+    "argon2": "^0.30.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.0.0",
+    "fastify-cli": "^5.5.0",
+    "fastify-plugin": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "tap": "^16.1.0"
+  }
+}
